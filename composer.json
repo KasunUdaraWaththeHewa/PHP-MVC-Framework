@@ -1,0 +1,14 @@
+{
+    "name": "cs24/phpmvc",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "cs24"
+        }
+    ],
+    "require": {}
+}
