@@ -1,14 +1,18 @@
 {
-    "name": "cs24/phpmvc",
-    "autoload": {
-        "psr-4": {
-            "app\\": "./"
-        }
-    },
+    "name": "thecodeholic/phpmvc-framework",
     "authors": [
         {
-            "name": "cs24"
+            "name": "Zura Sekhniashvili",
+            "email": "zurasekhniashvili@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "app\\": "."
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.0",
+        "thecodeholic/php-mvc-core": "^v1.0.5"
+    }
 }
